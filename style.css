@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #e59500; */
+    background-color: #840032 ;
+    /* background-color: #002642 ; */
+    text-align: center;
+    color: antiquewhite;
+}
+main{
+    padding-top: 4rem;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-weight: 800;
+    font-family:cursive;
+}
+.game{
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 10vmin;
+    background-color: #e59500;
+    color: #040F16;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #040F16;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #040F16;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color: rgb(251, 247, 242);
+    font-size: 5vmin;
+    font-weight: 300;
+    font-family: 'Permanent Marker', cursive;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
